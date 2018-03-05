@@ -1,6 +1,4 @@
 blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
@@ -15,4 +13,8 @@ blockquote {
   }
   blockquote p {
     display: inline;
+  }
+  p, h1, h2, h3, h4{
+    color: white !important;
+    font-family: 'Dancing Script', cursive !important;
   }

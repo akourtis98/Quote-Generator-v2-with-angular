@@ -1,6 +1,7 @@
 <div style=" width: 100%; height: 80%;">
-    <h1 style="padding:80px 80px 0px 80px;"><blockquote>Quotes: {{quotes[age].quote}}</blockquote></h1>
+    <h1 style="padding:80px 80px 0px 80px;"><blockquote>{{quotes[age].quote}}</blockquote></h1>
   </div>
   <h2 style="float: right; margin-right: 100px;">~{{quotes[age].name}}</h2>
-  <button style="float: left; margin-left: 100px; margin-top: 14px;" (click)="clickMeBackward()">Previous</button>
-  <button style="float: left; margin-left: 100px; margin-top: 14px;" (click)="clickMeForward()">Next</button>
+  <button style="float: left; width:80px; margin-left: 100px; margin-top: 14px;" (click)="clickMeBackward()"><i class="fa fa-chevron-left"></i></button>
+  <button style="float: left; width:80px; margin-left: 100px; margin-top: 14px;" (click)="clickMeForward()"><i class="fa fa-chevron-right"></i></button>
+  
